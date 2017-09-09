@@ -31,6 +31,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
+    
   </head>
 
   <body>
@@ -39,7 +41,8 @@
       <div class="header clearfix">
           <nav>
 		    <ul class="nav nav-pills pull-right">
-          <li role="presentation"><a href="<?php echo base_url();?>web">Demo</a></li>
+          <li role="presentation"><a href="<?php echo base_url();?>web">Demo Biasa</a></li>
+          <li role="presentation"><a href="<?php echo base_url();?>">Demo Setengah AJAX</a></li>
           <!--
           <li role="presentation"><a href="https://dedihartono.github.io/index.html">Home</a></li>
           <li role="presentation"><a href="https://dedihartono.github.io/contact.html">Contact</a></li>
@@ -66,7 +69,6 @@
 
     </div> <!-- /container -->
 
-    <script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php echo base_url();?>assets/js/ie10-viewport-bug-workaround.js"></script>
     <!--Dinamis URL-->
